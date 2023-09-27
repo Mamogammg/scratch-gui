@@ -50,6 +50,26 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Test"
+                description="Name for the 'Test' extension"
+                id="gui.extension.test.name"
+            />
+        ),
+        extensionId: 'test',
+        iconURL: musicIconURL,
+        insetIconURL: musicInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="A test extension"
+                description="Description for the 'Test' extension"
+                id="gui.extension.test.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"
